@@ -1,0 +1,126 @@
+
+ /*стили хэдера*/
+.header{
+    margin-top: 44px;
+    margin-left: 112px;
+    margin-bottom: 62px;
+
+ }
+ .nav__list_link{
+     font-size: 14px;
+     line-height: 20px ;
+     color:  #1E0606;
+     font-family: sans-serif;
+ }
+ 
+
+    
+
+
+
+
+
+
+
+ /*стили баннера*/
+
+       
+
+        
+    
+    .buttons__bunner_list{
+        
+        padding-top: 17.4px;
+        padding-left: 28.4px;
+        
+    }
+  
+
+
+    
+
+
+
+ .banner{
+
+    margin-left: 112px;
+    margin-top: 90.6px;
+    width: 1197px;
+    height: 420px;
+     background-color: #EEE4DB;
+     margin-bottom: 78px;
+ 
+}
+
+.banner__title{
+    
+    font-weight: 700;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-left: 134px;
+    
+    
+
+}
+
+.button__explore_now{
+    width: 163.32px;
+height: 40.72px;
+    font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+background: #000000
+
+}
+
+/*стили товаров*/
+.types__products{
+    padding-left: 110px;
+
+}
+
+.control{
+    margin-left: 110px;
+
+}
+
+.subtitle{
+    margin-left: 210px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+/*стили доставки*/
+.delivery{
+    margin-left: 110px;
+
+    
+
+
+}
+
+
+
+.title__list{
+    font-size: 38px;
+line-height: 46px;
+font-family: sans-serif;
+
+
+
+
+
+
+
+}
+
+
+        .title__delivery{
+            margin-left: 766px;
+            
+
+
+        }
+      
+
+/*стили футера*/
