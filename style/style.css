@@ -1,126 +1,415 @@
 
  /*стили хэдера*/
 .header{
+    display: inline-flex;
     margin-top: 44px;
-    margin-left: 112px;
-    margin-bottom: 62px;
-
+    margin-left: 112px; 
+    width: 1178px;
+   
  }
+
+ .nav{
+    margin-left: 66px;
+    display: inline-flex;
+ }
+
+ .nav__list{
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    
+ }
+
  .nav__list_link{
-     font-size: 14px;
-     line-height: 20px ;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
      color:  #1E0606;
-     font-family: sans-serif;
+     font-family: sans-serif;    
+ }
+
+ .contact__us{
+ margin-left: 620px;
+display: flex;
+align-items: center;
+ font-family: sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+ 
  }
  
-
-    
-
-
-
-
+ .contact__us_link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+    color: #1E0606;
+ }
 
 
 
  /*стили баннера*/
-
-       
-
-        
-    
-    .buttons__bunner_list{
-        
-        padding-top: 17.4px;
-        padding-left: 28.4px;
-        
-    }
-  
-
-
-    
-
-
-
  .banner{
-
+    margin-top: 152px;
     margin-left: 112px;
-    margin-top: 90.6px;
-    width: 1197px;
-    height: 420px;
-     background-color: #EEE4DB;
-     margin-bottom: 78px;
- 
+    width: 1193px;
+    height: 418.4px;
+    background: #EEE4DB;
 }
+
+
+
+ .zero__one{
+  padding-top: 18px;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 73px;
+  color: #1E0606
+}
+
+.buttons__bunner_list{
+    padding-left: 32px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.background__slider{
+    margin-top: 10px;
+    width: 31.45px;
+    height: 3.05px;
+    background:  #D6CAC2;   
+}
+
+
+
 
 .banner__title{
-    
-    font-weight: 700;
-    font-size: 40px;
-    font-family: sans-serif;
-    padding-left: 134px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 134px;
     
     
-
 }
+ 
+
+.title{
+    font-family: 'Montserrat';
+    width: 311.42px;
+    font-weight: 312px;
+    font-family: sans-serif;
+    font-size: 40px;
+
+} 
+
+
+.made__in{
+    margin-top: 21px;
+    font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+}
+
 
 .button__explore_now{
-    width: 163.32px;
-height: 40.72px;
+    font-weight: 700;
     font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-background: #000000
+    line-height: 22px;
+    margin-left: 134px;
+    color: #FFFFFF;
+    width: 163.32px;
+    height: 40.72px;
+    background: #000000;
+    
 
 }
+
+
+.slogan__background{
+    display: flex;
+    align-items: center;
+    margin-left: 112px;
+    width: 1193px;
+height: 39.7px;
+border: 1px solid #000000;
+background: #C29974;
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    margin-left: 368px;
+
+
+}
+
 
 /*стили товаров*/
-.types__products{
-    padding-left: 110px;
 
+h2{
+    margin-top: 77px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    font-size: 38px;
+    line-height: 46px;
 }
+
+.list__products{
+    padding-left: 110px;
+    display: flex;
+  
+}
+.list__products_item{
+    margin: 10px;
+}
+
 
 .control{
     margin-left: 110px;
+    display: flex;
+    align-items: center;
 
 }
 
 .subtitle{
-    margin-left: 210px;
-    margin-top: 30px;
-    font-family: sans-serif;
-
-}
-/*стили доставки*/
-.delivery{
-    margin-left: 110px;
-
     
-
-
+    margin-left: 32px;
 }
 
 
+/*стили доставки*/
 
-.title__list{
-    font-size: 38px;
-line-height: 46px;
-font-family: sans-serif;
+.delivery{
+   display: flex;
+   margin-top: 78px;
+   margin-left: 110px;
+ }
 
+ 
+ .list__operation{
+    margin-left: 132px;
+ }
+.operation__item{
+    padding: 0px;
+    margin: 0px;
+}
 
-
-
-
-
+.list__operation_item{ 
+line-height: 44px;
+font-style: italic;
+font-size: 26px;  
+color: #000000;
 
 }
 
+.button__learn_more{
+    margin-top: 48px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+width: 163.32px;
+height: 40.72px;
+background: #000000;
+}
 
-        .title__delivery{
-            margin-left: 766px;
-            
+/*стили "соц. сети"*/
+.social__list{
+    margin-top: 78px;
+    margin-left: 110px;  
+}
+
+.social{
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    align-items: center;   
+}
+
+.social__item{
+    margin-left: 134px;  
+}
 
 
-        }
-      
+/*стили "о компании + карта"*/
+.about__us{
+    margin-top: 90px;
+    margin-left: 140px;
+    display: flex;
+}
+h3{
+    margin: 0;
+}
+.title__about_us{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    }
+
+
+p{
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 26px;
+line-height: 34px;
+}
+
+.button__buy_now{
+    margin-top: 20px;
+    width: 123px;
+    height: 40px;
+    left: 140px;
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+    .Contact__us{
+        margin-left: 117px;
+    }
+
+    p{
+        margin-top: 20px;
+        font-family: 'Open Sans';
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;   
+    }
 
 /*стили футера*/
+/*левая колонка*/
+.footer{
+display: flex;
+width: 1400px;
+height: 556px;
+background: #434343;
+}
+
+
+
+.list__navigation{ 
+    margin-left: 110px;
+    margin-right: 242px;  
+}
+
+h4{
+    width: 380.81px;
+margin-top: 100px;
+margin-bottom: 52px;
+font-family: sans-serif;
+color: #AAAAAA
+}
+
+
+
+.list__nav_item{
+    width: 185px;
+    margin: 0px;
+    padding: 0px;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.nav__item{
+  display: flex;
+  margin-bottom: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.raiting__star{
+    margin-top: 52px;
+}
+
+.copyright{
+    margin-top: 52px;
+}
+
+/*средняя колонка*/
+.info_item{
+   display: flex;
+   margin-bottom: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+
+.list__info_item{
+    display: flex;
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #AAAAAA;
+}
+
+.list__information{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;  
+}
+
+
+/*правая колонка*/
+.connect{
+    display: flex;
+    flex-direction: column;
+}
+
+.link__social{
+   padding: 0px;
+   margin: 0px;
+
+}
+
+.link__social_item{
+    display: inline-flex;
+    padding: 0px;   
+}
+
+.social__net{
+    margin-left: 10px;
+}
+
+.developer{
+font-family: sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+margin-top: 157px;
+color: #A2A2A2;
+} 
+
+.form__email{
+
+}
+
+.join{
+width: 81px;
+height: 40px;
+background: #000000;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+font-family: 'Open Sans';
+font-family: sans-serif;
+}
