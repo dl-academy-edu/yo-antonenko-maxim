@@ -3,50 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/normolize.css/">
     <title>Blog</title>
 </head>
 <body>
-    <header class="header">
-        <a href="./index.html">
-            
-            <img src="./static/icons/logo.svg" alt="logo">
-          
+    <div class="conteiner">
+        <header class="header">
+            <a class="header__link" href="./index.html">
+                
+            <img src="./static/icons/logo.svg" class="logo" alt="logo">
             </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">"Blog"</a> 
-                    </li>
-                    <li>
-                        <a href="#">"Catalog"</a>
-                    </li>
-                    <li>
-                        <a href="#">"About Us"</a>
-                    </li>
-                    <li>
-                        <a href="#">"About Us"</a>
-                        <div class="contact__us">
-                            <li class="nav__list_item">
-                                <a class="nav__list_link" href="#">CONTACT US</a>
-                                <img src="./static/icons/search.svg" alt="image__search">
-                            </li>
-            </ul>
+            <nav class="nav"> 
+                
+                <ul class="nav__list">  
+                    <li class="nav__list_item"> 
+                        <a class="nav__list_link" href="Blog.html">BLOG</a></li> 
+                    
+                    <li class="nav__list_item">
+                        <a class="nav__list_link" href="Catalog.html">CATALOG</a></li>
+                    
+                    <li class="nav__list_item">
+                        <a class="nav__list_link" href="#">ABOUT US</a></li>
+                </ul>
+            
+               <div class="contact__us"> 
+                <a href="#">
+                 <img class="img__searh" src="./static/icons/search.svg" alt="image__search"> 
+                </a>
+                 <a class="contact__us_link" href="#">CONTACT US</a> 
+                </div>
             </nav>
         </header>
 <main>
-    <section>
-    <h1>Blog</h1>
-    <ul>
+    <section class="blog">
+        <h1>BLOG</h1>
+        <div class="control">
+        <ul class="control__item">  
+       <li class="control__link"><a class="control__link" href="index.html">Home</a></li>
 
-        <li><a href="#">Home</a></li> 
-        <li><a href="#">Catalog</a></li>
-         
-     </ul>
-    </section>
-     <section>
-        <h2>About us</h2>
-        <ul>
-            <li><a href="#"></a>
+       <li class="control__link"><button class="control__button" type="button"><img src="./static/image/arrow_right.png" alt=""></button></li> 
+       
+       <li class="control__link"><a class="control__link" href="Blog.html">Blog</a></li> 
+    </ul>
+    </div>
+     
+        
+        <ul class="cards">
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_1.jpg" alt="">
 
                 <p>23rd August 2018</p>
@@ -54,7 +74,7 @@
                 <p>Direct Line Development’s Team is excited to <br> announce that we received UpCity’s 2019 <br>Local Excellence Award! This prestigious <br>award is annually presented to the Top 1% of <br>service providers in the given marketplace.</p>
 
             </li>
-            <li><a href="#"></a>
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_2.jpg" alt="">
 
                 <p>23rd August 2018</p>
@@ -62,16 +82,18 @@
                 <p>Direct Line Development is honored to be <br>recognized as one of the Top 100 Fastest <br>Growing Companies 2019 in Philadelphia, <br> according to Growjo’s ranking.</p>
 
             </li>
-            <li><a href="#"></a>
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_3.jpg" alt="">
 
 
                 <p>23rd August 2018</p>
                 <h2>Company logo or brand<br> identity: which one is more<br> important? brand identity</h2>
                 <p>To survive in the world of digital marketing,<br> you need to keep up with the latest SEO<br> trends. Here are our simple, but effective,<br> SEO tips for small business success.</p>
-
             </li>
-            <li><a href="#"></a>
+        </ul>
+
+            <ul class="cards__bottom_row">
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_4.jpg" alt="">
                 
                 <p>23rd August 2018</p>
@@ -79,7 +101,7 @@
                 <p>Direct Line Development is honored to be <br>recognized as one of the Top 100 Fastest <br> Growing Companies 2019 in Philadelphia, <br> according to Growjo’s ranking.</p>
 
             </li>
-            <li><a href="#"></a>
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_5.jpg" alt="">
                
                 <p>23rd August 2018</p>
@@ -87,7 +109,7 @@
                      <p>To survive in the world of digital marketing,<br> you need to keep up with the latest SEO <br> trends. Here are our simple, but effective,<br> SEO tips for small business success.</p>
                       
             </li>
-            <li><a href="#"></a>
+            <li class="cards__item"><a href="#"></a>
                 <img src="./static/image/blog_photo_6.jpg" alt="">
                
                 <p>23rd August 2018</p>
@@ -95,103 +117,99 @@
                 <p>Direct Line Development’s Team is excited to<br> announce that we received UpCity’s 2019<br> Local Excellence Award! This prestigious<br> award is annually presented to the Top 1% of <br>service providers in the given marketplace.</p>
 
             </li>
-
         </ul>
-        
-            <button> type="button">
-                left arrow
-            </button>
-    
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-          
-            </ul>
-    
-            <button> type="button">
-                right arrow
-            </button>
-    
-      
 
-
+        <ul class="slider">
+            <li>
+                <a class="slider__item" href="">1</a>
+            </li>
+            <li>
+                <a class="slider__item"  href="">2</a>
+            </li>
+            <li>
+                <a class="slider__item" href="">3</a>
+            </li>
+            <li>
+                <a class="slider__item" href="">4</a>
+            </li>
+        </ul>
      </section>
-</main>              
-<footer>
-    <section>   
-   <h3>Navigation</h3>
-   <ul>           
-       <li><a href="#">About Us</a></li>
-       <li><a href="#">Blog</a></li> 
-       <li><a href="#">Design Services</a></li> 
-       <li><a href="#">Featured On</a></li> 
-       <li><a href="#">2018 Holiday Catalog</a></li> 
-       <li><a href="#">Shop By Designer</a></li>
-       </ul>    
-   </section>  
-
-   <section>
-      <h3>Customer Information</h3> 
-      <ul>
-       <li><a href="#">Contact Us</a></li>
-       <li><a href="#">Sale Exclusions</a></li>
-       <li><a href="#">Shipping & Returns</a></li>
-       <li><a href="#">Terms & Conditions</a></li>
-       <li><a href="#">Privacy Policy</a></li>
-       <li><a href="#">Search</a></li>  
-      </ul>
-   </section>
-
-   <section>
-       <h3>Connect</h3>
-                
-       <form action="#">
-        <label for="Email" class="">Email</label>
-        <input type="email" id="Email">         
-            <button> type="submit"<img src="./static/icons/join.svg" alt="">  </button>                         
-            </form>
+</main>
+</div>              
+<footer class="footer">
+    <section class="list__navigation">
+      <h4 class="title__nav">Navigation</h4>
+      <ul  class="list__nav_item">  
+          <li><a class="nav__item" href="#">About Us</a></li>
+          <li><a class="nav__item" href="#">Blog</a></li> 
+          <li><a class="nav__item" href="#">Design Services</a></li> 
+          <li><a class="nav__item" href="#">Featured On</a></li> 
+          <li><a class="nav__item" href="#">2018 Holiday Catalog</a></li> 
+          <li><a class="nav__item" href="#">Shop By Designer</a></li>
+          </ul>
+      </section>
       
-       <ul>
-           <li>
-               <a href="#">
-               <img src="./static/icons/_facebook.svg" alt="social network">
-           </a>
-           </li>     
-           <li>
-               <a href="#">
-                   <img src="./static/icons/_twitter.svg" alt="social network">
-               </a>
-               </li>     
-               <li>
-                   <a href="#">
-                   <img src="./static/icons/_pinterest.svg" alt="social network">
-               </a>
-               </li>     
-               <li>
-                   <a href="#">
-                   <img src="./static/icons/_instagram.svg" alt="social network">
-               </a>
-               </li>         
-
-           </ul>
-           <div>
-           <fieldset>
-               <legend>Company Rating</legend>
-               <input type="radio" name="assessment" value="1">
-               <input type="radio" name="assessment" value="2">
-               <input type="radio" name="assessment" value="3">
-               <input type="radio" name="assessment" value="4">
-               <input type="radio" name="assessment" value="5">
-
-           </fieldset>
-       </div>
-       </section>
-       <p>Copyright © 2018 Dlk • Design Life Kids</p>
-       <p>Web Design — Direct Line Development</p>
-
-       </footer>
+      <section class="raiting__star"> 
+          <p class="rating">Company Rating</p>
+              <div>
+              <input class="star" type="radio" name="assessment" value="1">
+              <input class="star" type="radio" name="assessment" value="2">
+              <input class="star" type="radio" name="assessment" value="3">
+              <input class="star" type="radio" name="assessment" value="4">
+              <input class="star" type="radio" name="assessment" value="5">
+          </div>
+      </section>
+  
+      <section class="list__info_item">
+          
+         <ul  class="list__information">
+          <li><h4>Customer Information</h4></li>
+          <li><a class="info_item" href="#">Contact Us</a></li>
+          <li><a class="info_item" href="#">Sale Exclusions</a></li>
+          <li><a class="info_item" href="#">Shipping & Returns</a></li>
+          <li><a class="info_item" href="#">Terms & Conditions</a></li>
+          <li><a class="info_item" href="#">Privacy Policy</a></li>
+          <li><a class="info_item" href="#">Search</a></li>
+          <li class="copyright">Copyright © 2018 Dlk • Design Life Kids</li>  
+         </ul>
+         
+      </section>
+  
+      <section class="connect">
+          <h4>Connect</h4>
+              <form class="form__email_cont" action="#">
+              <label for="Email" class="#"></label>
+              <input class="form__email" placeholder="Email" id="Email">          
+                  <button class="join" type="submit">JOIN</button>
+                  </form>
+  
+         <div class="link__social">
+          <ul class="link__social_item">
+              <li>
+                  <a href="#">
+                  <img src="./static/icons/_facebook.svg" alt="social network">
+              </a>
+              </li>     
+              <li class="social__net">
+                  <a href="#">
+                      <img src="./static/icons/_twitter.svg" alt="social network">
+                  </a>
+                  </li>     
+                  <li class="social__net">
+                      <a href="#">
+                      <img src="./static/icons/_pinterest.svg" alt="social network">
+                  </a>
+                  </li>     
+                  <li class="social__net">
+                      <a href="#">
+                      <img src="./static/icons/_instagram.svg" alt="social network">
+                  </a>
+                  </li>       
+              </ul>
+          </div>
+          <span class="developer">Web Design — Direct Line Development</span>
+          </section>
+    </footer>
 
     </body>
     </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./style/catalog.css">
+    <link rel="stylesheet" href="./style/Toys.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
@@ -21,84 +21,152 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/normolize.css/">
-    <title>Catalog</title>
+    <title>Toys</title>
 </head>
 <body>
     <div class="conteiner">
-    <header class="header">
-        <a class="header__link" href="./index.html">
-            
-        <img src="./static/icons/logo.svg" class="logo" alt="logo">
-        </a>
-        <nav class="nav"> 
-            
-            <ul class="nav__list">  
-                <li class="nav__list_item"> 
-                    <a class="nav__list_link" href="Blog.html">BLOG</a></li> 
+        <header class="header">
+            <a class="header__link" href="./index.html">
                 
-                <li class="nav__list_item">
-                    <a class="nav__list_link" href="Catalog.html">CATALOG</a></li>
-                
-                <li class="nav__list_item">
-                    <a class="nav__list_link" href="#">ABOUT US</a></li>
-            </ul>
-        
-           <div class="contact__us"> 
-            <a href="#">
-             <img class="img__searh" src="./static/icons/search.svg" alt="image__search"> 
+            <img src="./static/icons/logo.svg" class="logo" alt="logo">
             </a>
-             <a class="contact__us_link" href="#">CONTACT US</a> 
-            </div>
-        </nav>
-    </header>
-
+            <nav class="nav"> 
+                
+                <ul class="nav__list">  
+                    <li class="nav__list_item"> 
+                        <a class="nav__list_link" href="Blog.html">BLOG</a></li> 
+                    
+                    <li class="nav__list_item">
+                        <a class="nav__list_link" href="Catalog.html">CATALOG</a></li>
+                    
+                    <li class="nav__list_item">
+                        <a class="nav__list_link" href="#">ABOUT US</a></li>
+                </ul>
+            
+               <div class="contact__us"> 
+                <a href="#">
+                 <img class="img__searh" src="./static/icons/search.svg" alt="image__search"> 
+                </a>
+                 <a class="contact__us_link" href="#">CONTACT US</a> 
+                </div>
+            </nav>
+        </header>
         <main>
-            <section class="category__products">
-            <h1>CATEGORY PRODUCTS</h1>
-            <div class="control">
-            <ul class="control__item">  
-           <li class="control__link" class="control__link"><a class="control__link" href="index.html">Home</a></li>
+            <section>
+                <h1>TOY FOR KIDS</h1>
+                <ul class="control">
+            <li class="control__link">
+                        <a class="control__link" href="./index.html">Home</a>
+            </li>
+            <li class="control__link">
+                        <button class="control__button" type="button"><img src="./static/image/arrow_right.png" alt=""></button>
 
-           <li class="control__link"><button class="control__button" type="button"><img src="./static/image/arrow_right.png" alt=""></button></li> 
-           
-           <li class="control__link"><a class="control__link" href="Catalog.html">Catalog</a></li> 
-        </ul>
- 
-                <ul class="product">
-                    <li class="product__item"><a href=""></a>
-                        <img class="picture__product" src="./static/image/apparel_kids.jpg" alt="APPAREL KIDS">
-                    </li>
-                    <li class="product__item"><a href=""></a>
-                        <img class="picture__product"src="./static/image/holiday_shop.jpg" alt= "HOLIDAY SHOP">     
-                    </li>
-                    <li class="product__item"><a href=""></a> 
-                        <img class="picture__product"src="./static/image/toys.jpg" alt="TOYS"> 
-                    </li>
-                </ul>
-
-                <ul class="product__bottom_row">
-                    <li class="product__item_bottom"><a href=""></a>
-                        <img class="picture__product" src="./static/image/accessories.jpg" alt="APPAREL KIDS">
-                    </li>
-                    <li class="product__item_bottom"><a href=""></a>
-                        <img class="picture__product" src="./static/image/sale.jpg" alt= "HOLIDAY SHOP">     
-                    </li>
-                    <li class="product__item_bottom"><a href=""></a>
-                        <img class="picture__product" src="./static/image/apparel_adults.jpg" alt="TOYS"> 
-                    </li>
+            </li>
+            <li class="control__link">
+                <a class="control__link" href="./Catalog.html">Catalog</a>
+            </li>
+            <li class="control__link">
+                        <button class="control__button" type="button"><img src="./static/image/arrow_right.png" alt=""></button>
+            </li>
+            <li class="control__link">
+                        <a class="control__link" href="./Toys.html">Toys</a>
+            </li>
                 </ul>
             </section>
 
-            <section class="product__description">
-                <h2>PRODUCT DESCRIPTION</h2>
+            <section class="filters">
+                
+               <div class="sliding__control">
+                <h2 class="title__cost">Cost</h2>
+                <input class="slider" type="range" min="1" max="100" value="20">
+             <div class="diapason"> 0</div>
+                <div class="diapason__cost">500</div>
+               </div>
+        
+
+
+
+               <div class="selection__color">
+                <h2 class="title__color">Color</h2>
+
+                <div class="wrapper__check_box">
+                    <input type="checkbox" class="color visually-hidden" id="Black" name="Black" checked>
+                    <label class="name__color" for="Black">Black</label> 
+                </div>
+
+              <div class="wrapper__check_box">
+                <input type="checkbox" class="color visually-hidden" id="Blue" name="Blue">
+                <label class="name__color" for="Blue">Blue</label>
+            </div> 
+
+               <div class="wrapper__check_box">           
+                <input type="checkbox" class="color visually-hidden" id="Green" name="Green">
+                <label class="name__color" for="Green">Green</label>
+            </div>
+
+               <div class="wrapper__check_box">
+                <input type="checkbox" class="color visually-hidden" id="White" name="White">
+                <label class="name__color" for="White">White</label>
+            </div>
+            </div>
+
+
+            <div class="delivery">
+                <h2 class="title__delivery">Delivery</h2>
+
+                <div class="radio__button">
+                <input type="radio" class="radio" id="Free__shipping">
+                <label for="Free__shipping">Free shipping</label>
+                </div>
+                
+                <div class="radio__button">
+                <input type="radio" class="radio" id="Fast__shipping">
+                <label for="Fast__shipping">Fast shipping</label>
+                </div>
+                </div>
+                
+
+                <div class="amount">
+                    <h2 class="title__amount">Amount</h2>
+
+                <div class="radio__button_amount">
+                    <div class="btn">
+                        <label class="label" for="0-5">0-5</label> 
+                    <input type="radio" class="radio__amount" id="0-5">
+                                     
+                </div>
+
+                    <div class="btn">
+                        <label class="label__right" for="10-20">10-20</label> 
+                    <input type="radio" class="radio__amount" id="10-20">
+                                           
+                </div>
+
+                <div class="btn">
+                    <label class="label__right" for="20-50">20-50</label>
+                    <input type="radio" class="radio__amount" id="20-50">
+                                         
+                </div>
+            </div>
+            
+
                
-                <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-<p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-<p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress. </p>
-            </section>
-        </main>
-    </div>
 
+
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+        </main>
+        </div>
         <footer class="footer">
             <section class="list__navigation">
               <h4 class="title__nav">Navigation</h4>
@@ -173,7 +241,5 @@
                   <span class="developer">Web Design — Direct Line Development</span>
                   </section>
             </footer>
-       
-           </body>
-           </html>
-           
+        </body>
+        </html>
