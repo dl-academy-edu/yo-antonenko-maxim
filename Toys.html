@@ -130,43 +130,101 @@
                     <h2 class="title__amount">Amount</h2>
 
                 <div class="radio__button_amount">
-                    <div class="btn">
+                    <div class="button">
                         <label class="label" for="0-5">0-5</label> 
                     <input type="radio" class="radio__amount" id="0-5">
                                      
                 </div>
 
-                    <div class="btn">
+                    <div class="button">
                         <label class="label__right" for="10-20">10-20</label> 
                     <input type="radio" class="radio__amount" id="10-20">
                                            
                 </div>
 
-                <div class="btn">
+                <div class="button">
                     <label class="label__right" for="20-50">20-50</label>
                     <input type="radio" class="radio__amount" id="20-50">
                                          
                 </div>
+                
+                    <button type="button" class="button__apply btn">APPLY</button>
             </div>
-            
-
-               
-
-
-
-
-
             </section>
 
+          <section class="products">
+            <ul class="list__products">
+                <li class="list__products_item">
+                    <img src="./static/image/shark_toy.jpg" alt="">
+                <p class="name__product">SHARKY BEAN BAG CHAIR COVER</p>
+                <p class="price">$60.00 USD</p>
+                </li>
+                
+
+                <li class="list__products_item">
+                    <img src="./static/image/earrings.jpg" alt="">
+                    <p class="name__product">BRASS DECO FRAMES</p>
+                <p class="price">$66.00 USD</p>
+
+                </li>
+
+                <li class="list__products_item">
+                    <img src="./static/image/apron.jpg" alt="">
+                    <p class="name__product">CIBO FULL APRON</p>
+                    <p class="price">$60.00 USD</p>
+
+                </li>
+            </ul>
 
 
 
+                <ul class="list__products_low">
+                <li class="list__products_item">
+                    <img class="img__product" src="./static/image/gumball_machine.jpg" alt="">
+                    <p class="name__product">GATCHA GATCHA GUMBALL MACHINE</p>
+                    <p class="price">$56.00 USD</p>
 
+                </li>
+                <li class="list__products_item">
+                    <img src="./static/image/candle.jpg" alt="">
+                    <p class="name__product">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                    <p class="price">$29.00 USD</p>
 
+                </li>
+                <li class="list__products_item">
+                    <img src="./static/image/light_tea.jpg" alt="">
+                    <p class="name__product">TANGLE SPINNING TEA LIGHT</p>
+                    <p class="price">$56.00 USD</p>
 
+                </li>
+            </ul>
+
+            <div class="pagination"> 
+                <span class="arrow__left"><a href=""><img src="./static/icons/vector_left.svg" alt=""></a></span> 
+                <ul class="pagination__list">
+                    <li>
+                        <a class="pagination__item" href="">1</a>
+                    </li>
+                    <li>
+                        <a class="pagination__item"  href="">2</a>
+                    </li>
+                    <li>
+                        <a class="pagination__item" href="">3</a>
+                    </li>
+                    <li>
+                        <a class="pagination__item" href="">4</a>
+                    </li>
+                </ul>
+                <span class="arrow__right"><a href=""><img src="./static/icons/vector_right.svg" alt=""></a></span> 
+            </div>
+            
+         
+
+          </section>
 
         </main>
         </div>
+
         <footer class="footer">
             <section class="list__navigation">
               <h4 class="title__nav">Navigation</h4>
@@ -181,9 +239,9 @@
               </section>
               
               <section class="raiting__star"> 
-                  <p class="rating">Company Rating</p>
+                <p class="rating">Company Rating</p>
                       <div>
-                      <input class="star" type="radio" name="assessment" value="1">
+                      <input class="star" type="radio" name="assessment" value="1" placeholder="Company Rating">
                       <input class="star" type="radio" name="assessment" value="2">
                       <input class="star" type="radio" name="assessment" value="3">
                       <input class="star" type="radio" name="assessment" value="4">
@@ -211,7 +269,7 @@
                       <form class="form__email_cont" action="#">
                       <label for="Email" class="#"></label>
                       <input class="form__email" placeholder="Email" id="Email">          
-                          <button class="join" type="submit">JOIN</button>
+                          <button class="join btn" type="submit">JOIN</button>
                           </form>
           
                  <div class="link__social">
