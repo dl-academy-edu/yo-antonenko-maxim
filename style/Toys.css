@@ -1,13 +1,8 @@
  /*стили хэдера*/
- .conteiner{
-    max-width: 1400px;
-}
-
 
 .header{
     display: inline-flex;
     margin-top: 44px;
-    margin-left: 113px; 
     width: 1178px; 
  }
 
@@ -62,14 +57,12 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
-margin-left: 110px;
 }
 
 .control{
     display: flex;
     padding: 0px;
     margin-top: 15px;
-    margin-left: 110px;
 }
 
 .control__link{
@@ -93,11 +86,17 @@ color: #1E0606;
     padding: 0px;
     border: #FFFFFF;
     background-color: #FFFFFF ;
+    cursor: pointer;
+}
+
+.control__button:hover{
+    opacity: 0.5;
 }
 
 .filters{
     position: relative;
     display: flex;
+    margin-left: -110px;
 }
 
 
@@ -192,7 +191,7 @@ h2{
 
 .wrapper__check_box{
     display: flex;
-    padding-bottom: 20px;   
+    padding-bottom: 16px;   
 }
 
 .name__color::after{
@@ -218,12 +217,13 @@ h2{
 /*стили кнопок доставки*/
 .delivery{
     margin-top: 97px;
-    margin-left: 124px; 
+    margin-left: 124px;
+    width: 131px;
 }
 
 .title__delivery{
     margin: 0px;
-    margin-bottom: 15px;
+    padding-bottom: 5px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -237,21 +237,24 @@ label{
     font-size: 16px;
 }
 
+
 .radio__button{
-    margin-bottom: 20px;
+    padding: 10px;
+    width: 150px;
 }
 
 .radio {
 	position: absolute;
 	z-index: -1;
-	opacity: 0;
-	
+	opacity: 0;	
 }
-.radio ~ label {
+
+.radio ~ label{
 	position: relative;
 	padding: 0 0 0 35px;
 	cursor: pointer;
 }
+
 .radio ~ label:before {
 	content: '';
 	position: absolute;
@@ -273,8 +276,8 @@ label{
 	height: 16px;
 	border-radius: 50%;
 	background: #C29974;
-
 }
+
 
 .radio:focus ~ label:before {
     outline: 2px solid black; 
@@ -362,17 +365,29 @@ label{
     left: -19px; 
 }
 
-
-.label:checked::before{
+.label:active::after{
     content: '';
     position: absolute;
     width: 80px;
-    height: 35px;
-    background: #6b0a28;
+    height: 37px;
+    background: #F3D0DB;
     z-index: -1;
     bottom: -8px;
     left: -30px; 
 }
+
+.label__right:active::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 37px;
+    background: #F3D0DB;
+    z-index: -1;
+    bottom: -9px;
+    left: -19px; 
+}
+
+
 
 .button__apply{
     display: inline-block;
@@ -399,13 +414,12 @@ label{
 .list__products{
     padding: 0px;
     display: inline-flex;
-    margin-left: 110px;
+    
     
 }
 
 .list__products_low{
     padding: 0px;
-    margin-left: 110px;
     display: inline-flex;
    
 }
@@ -484,7 +498,6 @@ label{
     display: inline-flex;   
     padding: 0px;
     margin-top: 50px;
-    margin-left: 120px;
 }
 
 .pagination__list{
@@ -544,6 +557,7 @@ color: #1E0606;
     width: 17px;
     height: 31px;
     bottom: 10px;
+    padding-right: 2px;
     background-image: url(../static/icons/vector_hover.png);
 
 }
@@ -567,14 +581,7 @@ color: #1E0606;
     bottom: 10px;
     background-image: url(../static/icons/vector_hover.png);
     opacity: 0.5;
-
 }
-    
-    
-
-
-
-
 
 
    /*стили футера*/
@@ -582,6 +589,7 @@ color: #1E0606;
 .footer{
     display: flex;
    margin-top: 15px;
+    margin-left: -119px;
     width: 1400px;
     height: 556px;
     background: #434343;
@@ -738,6 +746,7 @@ color: #1E0606;
     .form__email_cont{
         margin-top: 6px;
         display: inline-flex;
+        height: 40px;
     }
     
     .form__email{

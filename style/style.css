@@ -1,15 +1,13 @@
 
  /*стили хэдера*/
- .conteiner{
-    max-width: 1403px; 
-}
+
 
 .header{
     display: inline-flex;
     margin-top: 44px;
-    margin-left: 112px; 
     width: 1178px; 
  }
+
 
  .nav{
     margin-left: 66px;
@@ -64,7 +62,7 @@ line-height: 19px;
     position: relative;
     margin-top: 62px;
     display: flex;
-    margin-left: 112px;
+    
 }
 
 .banner::after{
@@ -137,7 +135,6 @@ line-height: 19px;
     margin-left: 44px;
     margin-top: 181px;
     max-height: 198px;
- 
 }
  
 
@@ -175,7 +172,6 @@ line-height: 26px;
 
 
 .background__subtitle{ 
-margin-left: 112px;  
 width: 1191px;
 height: 40px;
 border: 1px solid #000000;
@@ -183,7 +179,6 @@ background: #C29974;
 }
 
 .subtitle__banner{
-margin-top: 12px;
 font-family: 'Open Sans';
 font-weight: 700;
 font-size: 12px;
@@ -199,14 +194,14 @@ color: #FFFFFF;
 
 h2{
     margin-top: 77px;
-    margin-left: 110px;
+    margin-bottom: 0px;
     font-family: sans-serif;
     font-size: 38px;
     line-height: 46px;
 }
 
 .list__products{
-    padding-left: 110px;
+    padding: 0px;
     display: inline-flex;  
 }
 
@@ -250,7 +245,6 @@ h2{
 
 .control{
     height: 37px;
-    margin-left: 110px;
     margin-right: 20px;
     display: flex;
     align-items: center;
@@ -259,6 +253,10 @@ h2{
 
 .subtitle{
     margin-left: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
  
 }
 
@@ -351,10 +349,12 @@ h2{
 /*стили доставки*/
 
 .delivery{
+    width: 1180px;
+    height: 571px;
     position: relative;
    display: flex;
    margin-top: 78px;
-   margin-left: 110px;
+  
  }
 
  .delivery::before{
@@ -364,43 +364,76 @@ h2{
     height: 91px;
     background: rgba(112, 187, 220, 0.2);
     margin-left: 600px;
-    margin-top: 75px;
+    margin-top: 85px;
     z-index: -1;
  }
 
  
  .list__operation{
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 132px;
  }
+
 .operation__item{
-    padding: 0px;
-    margin: 0px;
+   padding: 0px;
 }
 
 .list__operation_item{ 
-line-height: 44px;
-font-style: italic;
-font-size: 26px;  
-color: #000000;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 26px; 
+    margin-bottom: 25px;
+}
+
+.list__operation_item:hover{
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.list__operation_item:active{
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.active__item{
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.subtitle__delivery{
+font-family: 'Open Sans';
+font-style: normal;
+margin-bottom: 0px;
+font-weight: 400;
+font-size: 16px;
 
 }
 
 .button__learn_more{
     margin-top: 48px;
     font-weight: 700;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
-width: 163.32px;
-height: 40.72px;
-background: #000000;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 163.32px;
+    height: 40.72px;
+    background: #000000;
 }
 
 /*стили "соц. сети"*/
 .social__list{
-    margin-top: 78px;
-    margin-left: 110px;  
+    margin-top: 78px;   
 }
 
 .social{
@@ -419,11 +452,20 @@ background: #000000;
 .about__us{
     position: relative;
     margin-top: 90px;
-    margin-left: 140px;
+    margin-left: 30px;
     display: flex;
 }
 
-.about__us::after{
+.subtitle__about_us{
+   width: 543px;
+   margin-bottom: 20px;
+   font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about__us::before{
     content: '';
     position: absolute;
     display: block;
@@ -433,15 +475,18 @@ background: #000000;
     z-index: -1;
     margin-top: 26px;
     margin-left: -30px;
-
 }
 
 h3{
-    margin: 0;
-}
+    margin: 0px;
+     font-family: 'Montserrat';
+     font-weight: 700;
+     font-size: 38px;
+ }
+
 .title__about_us{
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 9px;
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
@@ -466,41 +511,46 @@ h3{
     .Contact__us{
         display: block;
         position: relative;
-       margin-left: 117px;
+       margin-left: 65px;
     }
 
-    .contact__us::after{
+    .about__us::after{
         content: '';
         position: absolute;
         display: block;
         width: 543px;
-height: 209px;
-background: #E1F0F7;
-margin-top: 4200px;
-margin-left: -450px;
-z-index: -1;
+        height: 209px;
+        background: #E1F0F7;
+        margin-left: 575px;
+        margin-top: 26px;
+        z-index: -1;
     }
 
   
 
-    p{
-        margin-top: 20px;
+.subtitle__contacts{
+       margin-top: 20px;
         font-family: 'Open Sans';
-        font-family: sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 22px;   
+        margin-bottom: 0px;
     }
+
+.card{
+ margin-top: 30px;
+ }
 
 /*стили футера*/
 /*левая колонка*/
 .footer{
+position: absolute;
 display: flex;
-margin-top: 20px;
 width: 1400px;
 height: 556px;
 background: #434343;
+margin-top: -75px;
+margin-left: -110px;
 }
 
 .footer::before{
@@ -511,7 +561,6 @@ background: #434343;
     background: #666666;
     margin-top: 410px;
     margin-left: 110px;
-
 }
 
 .list__navigation{
@@ -524,8 +573,7 @@ background: #434343;
     width: 380px;
     height: 1px;
     background:  #666666;
-    margin-top: 138px;
-    
+    margin-top: 138px;   
 }
 
 
@@ -544,15 +592,15 @@ color: #AAAAAA
     width: 185px;
     margin: 0px;
     padding: 0px;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
 .nav__item{
-  display: flex;
-  margin-bottom: 15px;
+    display: flex;
+    margin-bottom: 15px;
     font-family: sans-serif;
     color: #FFFFFF;
 }
@@ -579,10 +627,10 @@ color: #FFFFFF;
     position: relative;
     display: flex;
     font-family: 'Open Sans';
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #AAAAAA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
 }
 
 .list__info_item::before{
@@ -621,15 +669,11 @@ color: #AAAAAA;
     height: 1px;
     background: #666666;
     margin-top: 138px;
-    
-
-
 }
 
 .link__social{
    padding: 0px;
    margin: 0px;
-
 }
 
 .link__social_item{
@@ -654,14 +698,14 @@ color: #A2A2A2;
 .form__email_cont{
     margin-top: 6px;
     display: inline-flex;
+    height: 40px;
 }
 
 .form__email{
     padding: 13px;
     width: 297px;
     background: #666666;
-    border: #666666;
-    
+    border: #666666;  
 }
 
 input::placeholder{
@@ -703,16 +747,47 @@ font-family: sans-serif;
 
 /*Попап*/
 
-.form{
+.window__modal{
     position: relative;
+    width: 1400px;
+    height: 768px;
+    background: rgba(125, 151, 218, 0.8); 
+    margin-top: 500px;
     margin-left: 25%;
+    display: none;
+}
+
+.icon__cross{
+    position: absolute;
+    margin-left: 1050px;
+    top: 113px;
+    cursor: pointer;
+}
+
+.icon__cross:hover{
+    opacity: 0.6;
+}
+
+.icon__cross:active{
+    opacity: 0.3;
+}
+
+.button__cross{
+    position: absolute;
+    margin-left: 1050px;
+    top: 113px;
+    opacity: 0;
+}
+
+.form{
+    position: absolute;
+    margin-left: 360px;
     width: 680px;
     height: 542px;
     background: #E5EAF8;
-    z-index: 1; 
+    z-index: 1;
+    margin-top: 113px;
 }   
-
-
 
 .name__top{
     padding-top: 42px;
@@ -811,15 +886,15 @@ font-family: sans-serif;
 .checkbox__personal_data{
   position: relative;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 17px;
   cursor: pointer;
 }
 
 .checkbox__personal_data::before{
     content: '';
     position: absolute;
-    width: 19px;
-    height: 19px;
+    width: 16px;
+    height: 16px;
     top: 1px;
     border: 2px solid #C29974;
     border-radius: 3px;
@@ -839,8 +914,8 @@ font-family: sans-serif;
 }
 
 .title__checkbox{
-    margin-left: 25px;
-    margin-top: 24px;
+    margin-left: 15px;
+    margin-top: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
