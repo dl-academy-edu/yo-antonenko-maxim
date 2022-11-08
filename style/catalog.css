@@ -5,7 +5,7 @@
 .header{
     display: inline-flex;
     margin-top: 49px;
-    
+    align-items: center;
     width: 1178px; 
  }
 
@@ -54,9 +54,9 @@ line-height: 19px;
  }
 
 /*стили катигории товаров*/
+
 .category__products{
     margin-top: 60px;
-    margin-left: 58px;
 }
 
 .control{
@@ -107,6 +107,8 @@ h1{
 }
 
 .list__products{
+    padding: 0px;
+    margin-left: -10px;
     margin-top: 49px;
     margin-bottom: 0px;
     display: inline-flex;  
@@ -153,43 +155,47 @@ h1{
     display: inline-flex;
     margin-top: 0px;
     padding: 0px;
-    margin-left: 230px;
+    margin-left: 190px;
 }
 
 
 /*стили описания товаров*/
+.conteiner__prod_description{
+    min-width: 1280px;
+}
+
+
 .product__description{
     display: block;
     margin-top: 0px;
+    margin-left: 200px;
 }
 
 h2{
-    margin: 0px;
+    margin-top: 25px;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 38px;
 }
 
 .subtitle__description{
-margin-top: 22px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #1E0606;
-width: 1280px;
+width: 680px;
 }
 
  /*стили футера*/
 /*левая колонка*/
 .footer{
     display: flex;
-    margin-top: 123px;
+    margin-top: 60px;
     width: 1400px;
     height: 556px;
     background: #434343;
-    margin-left: -76px;
     }
     
     .footer::before{

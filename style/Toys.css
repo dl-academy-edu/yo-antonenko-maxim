@@ -2,6 +2,7 @@
 
 .header{
     display: inline-flex;
+    align-items: center;
     margin-top: 44px;
     width: 1178px; 
  }
@@ -490,9 +491,9 @@ label{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    color: #1E0606;  
-    
+    color: #1E0606;     
 }
+
 
 .pagination{
     display: inline-flex;   
@@ -586,10 +587,10 @@ color: #1E0606;
 
    /*стили футера*/
 /*левая колонка*/
+
 .footer{
     display: flex;
-   margin-top: 15px;
-    margin-left: -119px;
+    margin-top: 15px;
     width: 1400px;
     height: 556px;
     background: #434343;

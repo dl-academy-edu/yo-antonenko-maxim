@@ -27,7 +27,7 @@
     <title>Main</title>
 </head>
 <body>
-    <div class="conteiner">
+    <div class="container">
     <header class="header">
         <a class="header__link" href="./index.html">
             
@@ -54,9 +54,10 @@
             </div>
         </nav>
     </header>
+    </div>
 
     <main>
-       
+        <div class="container">
         <section class="banner">
             <div  class="buttons__bunner_list">    
                 <span class="zero__one">01</span>
@@ -87,15 +88,12 @@
                  </button>
                  </div> 
 
-                    <img src="./static/image/monster.png" alt="">
-                         
-        </section>
+                    <img class="pic__monster" src="./static/image/monster.png" alt="">  
+        </section>      
+        <p class="subtitle__banner">FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p> 
+      </div>
 
-        <div class="background__subtitle">
-            <p class="subtitle__banner">FREE (CONTINENTAL) USA SHIPPING ON ALL ORDERS OF $100 USD OR MORE!</p> 
-        </div>
-      
-
+        <div class="container">
         <section class="types">
                 <h2>CATEGORY PRODUCTS</h2>
             <ul class="list__products">
@@ -130,15 +128,13 @@
         <button class="button__arrow_l" type="button"> </button>     
             
         <button class="button__arrow_r" type="button"> </button>
-        
-    
             <p class="subtitle">Modern finds for the modern home. Curated goods by unique designers<br> around the world from fashion to furniture for kids and adults.</p>
     </section>
+    </div>
 
+    <div class="container">
     <section class="delivery">
             <img class="photo" src="./static/image/woman.jpg" alt="photo of a woman">
-         
-
                 <div class="list__operation">
                 <h3>DELIVERY</h3>
                 <div>
@@ -153,33 +149,30 @@
         </div>
            
                 <p class="subtitle__delivery">
-                    Some days i feel like i've been working on dlk my entire life and<br> there are other days that i am completely shocked that four<br> years have flown by. It's simply magical.</p>
+                    Some days i feel like i've been working on dlk my entire life and<br>there are other days that i am completely shocked that four<br> years have flown by. It's simply magical.</p>
             
                   <p class="subtitle__delivery">
-                    What started as an outlet to deal  with the traumatic loss of my<br> husband, dlk has now become a truly happy place for me and i<br> have you and all of the beautiful designers that we work with to thank!
+                    What started as an outlet to deal  with the traumatic loss of my<br>husband, dlk has now become a truly happy place for me and i<br>have you and all of the beautiful designers that we work with<br>to thank!
                   </p>
-            
-               
-                
-         
                 <button class="button__learn_more btn" type="submit">
                     LEARN MORE 
                 </button>
-            </div>
-            
+            </div>   
         </section>  
+    </div>
 
-        <section class="social__list">
-            
+        <div class="container">
+        <section class="social__list">   
             <ul class="social">
                 <li><a href=""><img src="./static/icons/mail.svg" alt="mail.ru"></a></li>
                 <li class="social__item"><a href=""><img src="./static/icons/apple.svg" alt="apple"></a></li>
                 <li class="social__item"><a href=""><img src="./static/icons/eltex.svg" alt="eltex"></a></li>
                 <li class="social__item"><a href=""><img src="./static/icons/owox.svg" alt="owox"></a></li>
-
             </ul>
             </section>
-       
+        </div>
+
+    <div class="container"> 
 <section class="about__us">
             <div>   
                 <h3>DESIGN LIFE KIDS</h3>
@@ -197,7 +190,7 @@
     </div>
 </section>
 </main>
-
+    <div class="footer__container">
     <footer class="footer">
   <section class="list__navigation">
     <h4 class="title__nav">Navigation</h4>
@@ -211,15 +204,37 @@
         </ul>
     </section>
     
-    <section class="raiting__star"> 
-        <p class="rating">Company Rating</p>
-            <div>
-            <input class="star" type="radio" name="assessment" value="1">
-            <input class="star" type="radio" name="assessment" value="2">
-            <input class="star" type="radio" name="assessment" value="3">
-            <input class="star" type="radio" name="assessment" value="4">
-            <input class="star" type="radio" name="assessment" value="5">
-        </div>
+    <section class="rating__star"> 
+           
+             <fieldset class="container__rating">
+               <span class="name__rating">Company Rating</span> 
+               <div class="rating">
+                <div class="rating__items">  
+                    <input class="rating__item" type="radio" id="rating_5" name="rating" value="5">
+                    <label  class="rating__label" for="rating_5"></label>
+                
+                
+                  
+                    <input class="rating__item" type="radio" id="rating_4" name="rating" value="4">
+                    <label  class="rating__label" for="rating_4"></label>
+                
+
+                  
+                    <input class="rating__item" type="radio" id="rating_3" name="rating" value="3">
+                    <label  class="rating__label" for="rating_3"></label>
+                
+
+                  
+                    <input class="rating__item" type="radio" id="rating_2" name="rating" value="2">
+                    <label  class="rating__label" for="rating_2"></label>
+                
+
+                  
+                    <input class="rating__item" type="radio" id="rating_1" name="rating" value="1">
+                    <label  class="rating__label"for="rating_1"></label>
+                </div>
+            </div>
+        </fieldset> 
     </section>
 
     <section class="list__info_item">
@@ -274,8 +289,9 @@
         </section>
   </footer>
 </div>
-        <section class="window__modal">
-            
+</div>
+        <div class="container__popup">
+        <section class="window__modal">  
             <button class="button__cross" type="submit"></button>
             <img class="icon__cross" src="./static/icons/cross.svg" alt="">
         
@@ -304,18 +320,9 @@
             <div>
                 <button class="button__submit btn" type="submit">SUBMIT</button> 
             </div>
-            
-
-
-
-
-
-
             </form> 
-            
-            
         </section>
-
+    </div>
     </body>
     </html>
     

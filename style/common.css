@@ -3,9 +3,14 @@
     font-family: 'Lato' sans-serif;
     src: url();
 }*/
-.conteiner{
+.container{
     max-width: 1180px;
     margin: 0 auto;
+}
+
+.footer__container{
+   width: 1400px;
+   margin: 0 auto;
 }
 
 a{
