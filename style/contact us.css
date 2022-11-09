@@ -1,0 +1,495 @@
+.header{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 44px;
+    width: 1178px; 
+ }
+
+
+ .nav{
+    margin-left: 66px;
+    display: inline-flex;
+ }
+
+ .nav__list{
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    
+ }
+
+ .nav__list_link{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+     color:  #1E0606;
+     font-family: sans-serif;    
+ }
+
+ .contact__us{
+ margin-left: 620px;
+display: flex;
+align-items: center;
+font-family: 'Open Sans';
+ font-family: sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+ 
+ }
+ 
+ .contact__us_link{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+    color: #1E0606;
+ }
+
+ /*стили секции контактов*/
+ h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+ }
+
+ .control__item{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.control__link{
+    display:inline-flex;
+    margin-top: 15px;
+    margin-right: 10px;   
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606; 
+}
+
+.control__link:active{
+    opacity: 50%;
+}
+
+.control__button{
+    padding: 0px;
+    border: #FFFFFF;
+    background-color: #FFFFFF ;
+    cursor: pointer;
+}
+
+.control__button:hover{
+    opacity: 0.5;
+}
+
+/*стили формы данных*/
+
+.main__contact_us{
+    display: flex;
+}
+
+
+.form{
+    position: absolute;
+    width: 680px;
+    height: 542px;
+    background: #E5EAF8;
+    z-index: 1;
+    margin-top: 50px;
+}   
+
+.name__top{
+    padding-top: 42px;
+}
+
+.input__name{
+    padding: 0px;
+    margin-top: 6px;
+    margin-left: 40px;
+    width: 600px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.label__name{
+    padding-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+}
+
+input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1E0606;
+    padding-left: 20px;
+}
+
+.phone__mail_row{
+    display: inline-flex;
+}
+
+.input__phone{
+    padding: 0px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 43px;
+    width: 290px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.label__phone{
+    position: relative;
+    padding-left: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+}
+
+.input__mail{
+    padding: 0px;
+    margin-left: 270px;
+    margin-top: 43px;
+    width: 290px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.label__mail{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+}
+
+.wrapp__message{
+    margin-top: 20px;
+}
+
+.label__message{
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+    
+}
+
+.input__message{
+    padding: 0px;
+    margin-top: 6px;
+    margin-left: 40px;
+    width: 600px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.wrapp__checkbox{
+    display: inline-flex;
+}
+
+.checkbox__personal_data{
+  position: relative;
+  margin-left: 40px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.checkbox__personal_data::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 1px;
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    background-color: #E5EAF8; 
+    z-index: 0;
+}
+
+.checkbox__personal_data:checked::after{
+    content: '';
+    position: absolute;
+    background-image: url(../static/icons/vector_3.png);
+    width: 15px;
+    height: 15px;
+    z-index: 1;
+    left: 3px;
+    top: 3px;
+}
+
+.title__checkbox{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px; 
+    cursor: pointer;  
+}
+
+
+.button__submit{
+    margin: 17px 0px 0px 40px;
+    width: 106px;
+    height: 40px;
+    background: #000000;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #E1E1E1;
+}
+
+.subtitle__contact_us{
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+p{
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;  
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #C29974;
+}
+
+
+ /*стили футера*/
+/*левая колонка*/
+.footer{
+    display: flex;
+    width: 1400px;
+    height: 556px;
+    margin-top: 364px;
+    background: #434343;
+    }
+    
+    .footer::before{
+        content: '';
+        position: absolute;
+        width: 1183px;
+        height: 1px;
+        background: #666666;
+        margin-top: 410px;
+        margin-left: 110px;
+    }
+    
+    .list__navigation{
+        margin-left: 110px;
+    }
+    
+    .list__navigation::before{
+        content: '';
+        position: absolute;
+        width: 380px;
+        height: 1px;
+        background:  #666666;
+        margin-top: 138px;   
+    }
+    
+    
+    
+    h4{
+     width: 380.81px;
+    margin-top: 100px;
+    margin-bottom: 52px;
+    font-family: sans-serif;
+    color: #AAAAAA
+    }
+    
+    
+    
+    .list__nav_item{
+        width: 185px;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    .nav__item{
+        display: flex;
+        margin-bottom: 15px;
+        font-family: sans-serif;
+        color: #FFFFFF;
+    }
+    
+    .raiting__star{
+        margin-top: 52px;
+    }
+    
+    .copyright{
+        margin-top: 52px;
+        color: #FFFFFF;
+    }
+    
+    /*средняя колонка*/
+    .info_item{
+       display: flex;
+       margin-bottom: 15px;
+        font-family: sans-serif;
+        color: #FFFFFF;
+    }
+    
+    
+    .list__info_item{
+        position: relative;
+        display: flex;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #AAAAAA;
+    }
+    
+    .list__info_item::before{
+        content: '';
+        position: absolute;
+        width: 380px;
+        height: 1px;
+        background:  #666666;
+        margin-top: 138px;
+        margin-left: 20px;
+        
+    }
+    
+    
+    
+    .list__information{
+        margin: 0px;
+        padding-left: 20px;
+        font-family: sans-serif;  
+    }
+    
+    
+    /*правая колонка*/
+    .connect{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 381px;
+    }
+    
+    .connect::before{
+        content: '';
+        position: absolute;
+        width: 380px;
+        height: 1px;
+        background: #666666;
+        margin-top: 138px;
+    }
+    
+    .link__social{
+       padding: 0px;
+       margin: 0px;
+    }
+    
+    .link__social_item{
+        margin-top: 25px;
+        display: inline-flex;
+        padding: 0px;   
+    }
+    
+    .social__net{
+        margin-left: 10px;
+    }
+    
+    .developer{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 140px;
+    color: #A2A2A2;
+    }
+    
+    .form__email_cont{
+        margin-top: 6px;
+        display: inline-flex;
+        height: 40px;
+    }
+    
+    .form__email{
+        padding: 13px;
+        width: 297px;
+        background: #666666;
+        border: #666666;  
+    }
+    
+    input::placeholder{
+         color: #EBEBEB;;
+    }
+    
+    
+    .join{
+    padding: 0px;
+    width: 81px;
+    height: 40px;
+    background: #000000;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans';
+    font-family: sans-serif;
+    }
+    
+    /*рейтинг*/
+    .raiting__star{
+        display: flex;
+        display: inline-flex;
+        margin-left: 110px;
+       margin-top: 433px;
+       position: absolute;
+    }
+    
+    .star{
+        margin-top: 6px;
+    }
+    
+    .rating{
+        padding-right: 25px;
+        margin: 0px;
+        color: #FFFFFF;
+    }
+    

@@ -1,0 +1,126 @@
+
+/*body {
+    font-family: 'Lato' sans-serif;
+    src: url();
+}*/
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.footer__container{
+   width: 1400px;
+   margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #1E0606;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+button{
+    border: none;
+}
+
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; -webkit-clip-path: inset(100%); clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+.btn:hover{
+    cursor: pointer;
+    background: #C29974;
+}
+
+.btn:active{
+    background: #CFAF91;
+}
+
+.btn:disabled{
+    background: #C7C1C1;
+}
+
+.control__link:hover{
+    opacity: 0.7;
+}
+
+.control__link:active{
+    opacity: 0.7;
+}
+
+.logo:hover{
+    opacity: 0.5;
+ }
+
+ .logo:active{
+    opacity: 0.2;
+ }
+
+ .nav__list_link:hover{
+    opacity: 0.5;
+ }
+
+ .nav__list_link:active{
+    opacity: 0.2;
+ }
+
+ .img__searh:hover{
+    opacity: 0.5;
+ }
+
+ .img__searh:active{
+    opacity: 0.2;
+ }
+
+ .contact__us_link:hover{
+    opacity: 0.5;
+ }
+
+ .contact__us_link:active{
+    opacity: 0.2;
+ }
+
+ .nav__item:hover{
+    opacity: 0.5;
+ }
+
+ .nav__item:active{
+    opacity: 0.2;
+ }
+
+ .info_item:hover{
+    opacity: 0.5;
+ }
+ 
+ .info_item:active{
+    opacity: 0.2;
+ }
+
+ .link__soc:hover{
+    opacity: 0.5;
+ }
+
+ .link__soc:active{
+    opacity: 0.2;
+ }
+
+ .developer:hover{
+    color: #ffff;
+    cursor: pointer;
+    text-decoration-line: underline; 
+ }
+
+ .developer:active{
+    color: #ffff;
+    cursor: pointer;
+    text-decoration-line: underline; 
+ }
+
+ .form__email:hover{
+    border: 1px solid #FFFDFD;
+    cursor: pointer;
+ }
+
